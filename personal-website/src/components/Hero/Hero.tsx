@@ -1,7 +1,7 @@
 import clsx from 'clsx'
 import Avatar from './Avatar'
 import Title from './Title'
-import Typed from './Typed'
+import Subtitle from './Subtitle'
 
 export interface Props {
   className?: string
@@ -9,10 +9,10 @@ export interface Props {
 
 const Hero = ({ className }: Props) => {
   return (
-    <div className={clsx(className,'flex justify-center','bg-blue-900')}>
+    <div className={clsx(className,'flex justify-center')}>
  <span > <Avatar/>
  <Title/>
- <Typed/></span>
+ <Subtitle/></span>
     </div>
   )
 }

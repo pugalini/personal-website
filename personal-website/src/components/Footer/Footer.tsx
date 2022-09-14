@@ -10,8 +10,8 @@ export interface Props {
 
 const Footer = ({ className }: Props) => {
   return (
-    <div className={clsx(className,'bg-orange-800','flex justify-between','flex-wrap')}>
-      <div  className={clsx(className,'flex ','flex-wrap')}>
+    <footer className={clsx(className,'flex justify-between','flex-wrap ')}>
+      <div  className={clsx(className,'flex ',' flex-wrap ')}>
         <YarlItHub/>
         <UkiLogo/>
         <UkiAddress/>
@@ -22,7 +22,7 @@ const Footer = ({ className }: Props) => {
      
   
     
-    </div>
+    </footer>
   )
 }
 

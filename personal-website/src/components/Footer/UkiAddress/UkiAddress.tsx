@@ -6,8 +6,11 @@ export interface Props {
 
 const UkiAddress = ({ className }: Props) => {
   return (
-    <div className={clsx(className,'bg-pink-500','mx-10','my-8')}>
-      <span>UkiAddress</span>
+    <div className={clsx(className,'mx-10','my-8')}>
+     <div>Uki Coding School-Kilinochchi</div>
+     <div>423 , Thirunagar Road</div>
+     <div>Kilinochchi</div>
+     <div>Batch of 2022</div>
     </div>
   )
 }

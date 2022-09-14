@@ -1,4 +1,5 @@
 import clsx from 'clsx'
+import avatar from './pugalini-profile.png'
 
 export interface Props {
   className?: string
@@ -6,8 +7,10 @@ export interface Props {
 
 const Avatar = ({ className }: Props) => {
   return (
-    <div className={clsx(className,'bg-slate-500')}>
-      <span>Avatar</span>
+    <div
+      className={clsx('mx-auto flex justify-center w-48 lg:w-56 ' , className)}
+    >
+    <img alt="Profile avatar" src={avatar} />
     </div>
   )
 }

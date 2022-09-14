@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Pacifico&family=Rubik+Moonrocks&family=Signika+Negative:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans&family=Kaushan+Script&family=Pacifico&family=Rubik+Moonrocks&family=Signika+Negative:wght@300;400&display=swap');
+
+
+[data-theme='light'] {
+    --textColor: #333;
+    --titleColor: #333;
+    --bgColor: #fafafa;
+  
+  }
+  
+  [data-theme='dark'] {
+    --textColor: #eee;
+    --titleColor: #eee;
+    --bgColor: #333;
+    --linkColor: #000304;
+  }
+  
+  
+  body {
+    background-color: var(--bgColor);
+    border-color: var(--textColor);
+    color: var(--textColor);
+    min-height: 100vh;
+  }
+  
+  a {
+    color: var(--linkColor);
+  }
+  
+  h1 {
+    color: var(--titleColor);
+  }
+  
+  footer {
+    background-color: var(--textColor);
+    color: var(--bgColor);
+    
+  }
+  
